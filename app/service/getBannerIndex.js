@@ -1,5 +1,5 @@
 const { Service } = require('egg');
-const { getSetData } = require('BlockChain-ui-privatization/node/utils');
+const { getSetData } = require('blockchain-ui-privatization/node/utils');
 
 class getBannerIndex extends Service {
   async getdataSync(domainData, host, currenLan) {

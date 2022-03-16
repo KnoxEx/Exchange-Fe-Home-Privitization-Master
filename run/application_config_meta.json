@@ -211,7 +211,7 @@
       "@babel/preset-env": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
       "@babel/preset-stage-0": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
       "@vue/babel-preset-app": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
-      "BlockChain-ui-privatization": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "blockchain-ui-privatization": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
       "babel-plugin-transform-remove-strict-mode": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
       "babel-preset-es2015": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
       "babelify": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
