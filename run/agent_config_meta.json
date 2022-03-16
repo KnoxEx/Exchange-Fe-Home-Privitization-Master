@@ -1,0 +1,362 @@
+{
+  "keys": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+  "middleware": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+  "compress": {
+    "threshold": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "gzip": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "maxAge": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "usePrecompiledGzip": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "dir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "dynamic": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-static/config/config.default.js"
+  },
+  "logger": {
+    "disableConsoleAfterReady": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "dir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "env": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "level": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "mapping": {
+      ".njk": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js"
+    },
+    "cache": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+      "type": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "devUrlProxy": {
+    "ex": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "otc": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js",
+    "co": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "name": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "version": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "description": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "private": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@babel/core": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "@babel/helper-module-imports": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "@babel/preset-env": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "@babel/preset-stage-0": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "@vue/babel-preset-app": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "BlockChain-ui-privatization": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-remove-strict-mode": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "babel-preset-es2015": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "babelify": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "browserify": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "egg": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "graphql-request": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp-clean": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp-clean-css": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp-copy": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp-rev": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp-stylus": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp-uglify": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulp-watch": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "html-minifier": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "koa-compress": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "koa-conditional-get": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "koa-etag": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "through2": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "tinify": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "vinyl-buffer": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "vinyl-source-stream": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@babel/plugin-transform-modules-commonjs": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "autod": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-es2015-modules-commonjs": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-es2015-modules-umd": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint-import-resolver-alias": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint-plugin-eggache": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint-plugin-jsdoc": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint-plugin-promise": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "eslint-plugin-vue": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "lint-staged": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "build": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "autod": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "lint": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "dev": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "dev80": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "test": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "cov": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "ci": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "pkgfiles": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "gulpDev": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "startTestHome": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "stopTestHome": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "start-exchange-vue-server-home": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "stop-exchange-vue-server-home": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "repository": {
+      "type": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "url": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "files": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "author": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "license": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "strict": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "depth": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "logging": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "port": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/config.default.js"
+}

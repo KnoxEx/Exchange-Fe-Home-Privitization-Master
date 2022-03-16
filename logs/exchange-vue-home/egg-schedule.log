@@ -1,0 +1,6 @@
+2022-02-25 05:12:53,461 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 83826650ms at 2022-02-26 04:30:00.110
+2022-02-25 05:12:53,430 INFO 8895 [Job#16457371733313038811081457791] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-02-25 05:12:53,500 INFO 8895 [Job#16457371733313038811081457791] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 67ms. 
+2022-02-25 22:08:33,686 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js next time will execute after 86400000ms at 2022-02-26 22:08:33.654
+2022-02-25 22:08:33,592 INFO 8895 [Job#16457981135683648215422867962] /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js executing by app
+2022-02-25 22:08:33,642 INFO 8895 [Job#16457981135683648215422867962] /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js execute succeed, used 33ms. 

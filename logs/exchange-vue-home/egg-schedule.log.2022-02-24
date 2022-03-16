@@ -1,0 +1,104 @@
+2022-02-08 05:30:11,570 INFO 21085 [Job#164426941150319158614166653454] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-02-08 05:30:11,589 INFO 21085 [Job#164426941150319158614166653454] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 17ms. 
+2022-02-08 05:30:11,572 INFO 20736 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 82788475ms at 2022-02-09 04:30:00.046
+2022-02-24 20:29:49,973 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 28810030ms at 2022-02-25 04:30:00.003
+2022-02-24 20:29:49,973 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 12610027ms at 2022-02-25 00:00:00.000
+2022-02-24 20:29:49,973 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 12611027ms at 2022-02-25 00:00:01.000
+2022-02-24 20:29:49,973 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js next time will execute immediate
+2022-02-24 20:29:49,973 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js next time will execute after 86400000ms at 2022-02-25 20:29:49.973
+2022-02-24 20:29:49,789 INFO 7403 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:29:49,789 INFO 7403 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:29:49,789 INFO 7403 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:29:49,789 INFO 7403 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:29:49,974 INFO 7403 [Job#16457057899732724994246616461] /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js executing by app
+2022-02-24 20:29:49,994 INFO 7403 [Job#16457057899732724994246616461] /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js execute succeed, used 19ms. 
+2022-02-24 20:36:27,258 INFO 7527 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:36:27,258 INFO 7527 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:36:27,258 INFO 7527 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:36:27,258 INFO 7527 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:36:28,119 INFO 7553 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:36:28,119 INFO 7553 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:36:28,119 INFO 7553 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:36:28,119 INFO 7553 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:37:24,943 INFO 7571 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:37:24,943 INFO 7571 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:37:24,944 INFO 7571 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:37:24,944 INFO 7571 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:37:25,792 INFO 7598 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:37:25,792 INFO 7598 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:37:25,792 INFO 7598 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:37:25,792 INFO 7598 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:37:48,083 INFO 7608 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:37:48,083 INFO 7608 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:37:48,083 INFO 7608 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:37:48,083 INFO 7608 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:40:27,968 INFO 7686 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:40:27,968 INFO 7686 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:40:27,968 INFO 7686 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:40:27,968 INFO 7686 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:40:28,961 INFO 7707 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:40:28,961 INFO 7707 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:40:28,961 INFO 7707 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:40:28,961 INFO 7707 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:40:36,980 INFO 7719 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:40:36,980 INFO 7719 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:40:36,980 INFO 7719 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:40:36,980 INFO 7719 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:40:59,434 INFO 7756 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:40:59,434 INFO 7756 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:40:59,434 INFO 7756 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:40:59,434 INFO 7756 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:41:21,201 INFO 7781 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:41:21,201 INFO 7781 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:41:21,201 INFO 7781 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:41:21,201 INFO 7781 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:41:22,036 INFO 7782 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:41:22,036 INFO 7782 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:41:22,036 INFO 7782 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:41:22,036 INFO 7782 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:41:49,820 INFO 7807 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:41:49,820 INFO 7807 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:41:49,820 INFO 7807 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:41:49,820 INFO 7807 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:42:18,572 INFO 7829 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:42:18,572 INFO 7829 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:42:18,572 INFO 7829 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:42:18,572 INFO 7829 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:42:19,425 INFO 7838 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:42:19,425 INFO 7838 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:42:19,425 INFO 7838 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:42:19,425 INFO 7838 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:44:41,789 INFO 7874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:44:41,789 INFO 7874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:44:41,789 INFO 7874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:44:41,789 INFO 7874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:46:57,620 INFO 7888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:46:57,620 INFO 7888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:46:57,620 INFO 7888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:46:57,620 INFO 7888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:46:58,510 INFO 7913 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:46:58,510 INFO 7913 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:46:58,510 INFO 7913 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:46:58,510 INFO 7913 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:51:24,366 INFO 8874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:51:24,366 INFO 8874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:51:24,366 INFO 8874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:51:24,366 INFO 8874 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:51:25,319 INFO 8888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:51:25,319 INFO 8888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:51:25,319 INFO 8888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:51:25,319 INFO 8888 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:51:26,237 INFO 8894 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:51:26,237 INFO 8894 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:51:26,237 INFO 8894 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:51:26,237 INFO 8894 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-24 20:51:27,041 INFO 8895 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-02-24 20:51:27,041 INFO 8895 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-02-24 20:51:27,041 INFO 8895 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-02-24 20:51:27,041 INFO 8895 [egg-schedule]: register schedule /Users/h/partTimeJob/exchange-fe-home-privatization-master/app/schedule/remove-log.js
+2022-02-25 01:35:54,954 INFO 8895 [Job#16457241548232908624277481481] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-02-25 01:35:54,968 INFO 8895 [Job#16457241548992908625027215901] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-02-25 01:35:54,983 INFO 8895 [Job#16457241548232908624277481481] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 19ms. 
+2022-02-25 01:35:54,988 INFO 8895 [Job#16457241548992908625027215901] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 20ms. 
+2022-02-25 01:35:54,898 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 80645129ms at 2022-02-26 00:00:00.026
+2022-02-25 01:35:54,939 INFO 7402 [Timer] /Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 80646100ms at 2022-02-26 00:00:01.038
