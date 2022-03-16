@@ -89,26 +89,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-session/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-jsonp/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-onerror/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-watcher/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-schedule/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-static/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view-nunjucks/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/locales",
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/locales"
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-session/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-jsonp/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-onerror/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-i18n/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-watcher/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-schedule/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-multipart/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-development/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-static/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-view/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/locales",
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -119,8 +119,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -144,7 +144,7 @@
       "fileExtensions": [],
       "whitelist": null,
       "allowArrayField": false,
-      "tmpdir": "/var/folders/7b/tf7rh_ts26vf3byk8kynk9940000gn/T/egg-multipart-tmp/exchange-vue-home",
+      "tmpdir": "/var/folders/gb/c8qvc9dn3vg5v91p0v_lr7hc0000gn/T/egg-multipart-tmp/exchange-vue-home",
       "cleanSchedule": {
         "cron": "0 30 4 * * *",
         "disable": false
@@ -169,7 +169,7 @@
     },
     "static": {
       "prefix": "/",
-      "dir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/dist",
+      "dir": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/dist",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -180,7 +180,7 @@
     },
     "view": {
       "root": [
-        "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/build/template"
+        "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/build/template"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -302,9 +302,9 @@
       "author": "huangjin",
       "license": "MIT"
     },
-    "baseDir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master",
-    "HOME": "/Users/h",
-    "rundir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/run",
+    "baseDir": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master",
+    "HOME": "/Users/safahi",
+    "rundir": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -336,7 +336,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/logs/exchange-vue-home",
+      "dir": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/logs/exchange-vue-home",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -421,13 +421,13 @@
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",
     "staticDir": "./app/public",
-    "staticPath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/public/serverData/",
-    "skinsPath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/public/siknData/",
-    "localesPath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/view/src/locales",
-    "footerHeaderPath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/public/footerHeader/",
-    "appDownLoadPath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/public/appDownLoadPath/",
-    "bannerIndexPath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/public/bannerIndex/",
-    "footerList": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/public/footerList/",
+    "staticPath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/public/serverData/",
+    "skinsPath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/public/siknData/",
+    "localesPath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/view/src/locales",
+    "footerHeaderPath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/public/footerHeader/",
+    "appDownLoadPath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/public/appDownLoadPath/",
+    "bannerIndexPath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/public/bannerIndex/",
+    "footerList": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/public/footerList/",
     "serverUrlConfig": {
       "curlHost": "http://127.0.0.1",
       "proxy": "/fe-ex-api",
@@ -436,7 +436,7 @@
     "configDomain": {},
     "staticDomain": "",
     "domainArr": {},
-    "defaultLocalePath": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/app/view/src/locales",
+    "defaultLocalePath": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/view/src/locales",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -460,8 +460,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-onerror",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -471,8 +471,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-session",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -482,8 +482,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-i18n",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -493,8 +493,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-watcher",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -506,8 +506,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-multipart",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -519,8 +519,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-security",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security",
       "version": "2.9.0"
     },
     "development": {
@@ -534,8 +534,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-development",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -547,8 +547,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-logrotator",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -558,8 +558,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-schedule",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -569,8 +569,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-static",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -582,8 +582,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-jsonp",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -593,8 +593,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-view",
       "version": "2.1.3"
     },
     "nunjucks": {
@@ -607,8 +607,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/config/plugin.js",
-      "path": "/Users/h/partTimeJob/exchange-fe-home-privatization-master/node_modules/egg-view-nunjucks",
+      "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/config/plugin.js",
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-view-nunjucks",
       "version": "2.3.0"
     }
   }

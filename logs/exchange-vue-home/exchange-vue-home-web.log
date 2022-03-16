@@ -1,0 +1,11 @@
+2022-03-15 20:59:17,639 ERROR 53084 [-/127.0.0.1/-/1431ms GET /] [service.publictInfo] {"domain":"http://https://www.knox.exchange","message":"common/public_info_v4 请求成功"}
+2022-03-15 20:59:17,785 ERROR 53084 [-/127.0.0.1/-/1577ms GET /] [service.getFooterHeader] {"domain":"http://https://www.knox.exchange","message":"common/footer_and_header 请求成功"}
+2022-03-15 20:59:17,934 ERROR 53084 [-/127.0.0.1/-/1727ms GET /] [service.getAppDownLoad] {"domain":"http://https://www.knox.exchange","message":"common/app_download 请求成功"}
+2022-03-15 20:59:18,099 ERROR 53084 [-/127.0.0.1/-/1891ms GET /] [service.getBannerIndex] {"domain":"http://https://www.knox.exchange","message":"common/index 请求成功"}
+2022-03-15 20:59:18,255 ERROR 53084 [-/127.0.0.1/-/2047ms GET /] [service.getFooterList] {"domain":"http://https://www.knox.exchange","message":"/cms/footer/list 请求成功"}
+2022-03-15 20:59:18,292 ERROR 53084 [-/127.0.0.1/-/35ms GET /en_US/] [controller.homePage] 自定义header不是json
+2022-03-15 20:59:18,436 ERROR 53084 [-/127.0.0.1/-/180ms GET /en_US/] [service.publictInfo] {"domain":"http://https://www.knox.exchange","message":"common/public_info_v4 请求成功"}
+2022-03-15 20:59:18,684 ERROR 53084 [-/127.0.0.1/-/428ms GET /en_US/] [service.getFooterList] {"domain":"http://https://www.knox.exchange","message":"/cms/footer/list 请求成功"}
+2022-03-15 20:59:18,701 ERROR 53084 [-/127.0.0.1/-/445ms GET /en_US/] [service.getBannerIndex] {"domain":"http://https://www.knox.exchange","message":"common/index 请求成功"}
+2022-03-15 20:59:18,846 ERROR 53084 [-/127.0.0.1/-/589ms GET /en_US/] [service.getFooterHeader] {"domain":"http://https://www.knox.exchange","message":"common/footer_and_header 请求成功"}
+2022-03-15 20:59:18,846 ERROR 53084 [-/127.0.0.1/-/590ms GET /en_US/] [service.getAppDownLoad] {"domain":"http://https://www.knox.exchange","message":"common/app_download 请求成功"}
