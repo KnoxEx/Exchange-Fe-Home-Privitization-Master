@@ -78,7 +78,7 @@ name: "ClusterClientNoResponseError"
 pid: 7402
 hostname: HdeMacBook-Pro.local
 
-2022-03-15 20:56:25,172 ERROR 51980 nodejs.MODULE_NOT_FOUNDError: [egg-core] load file: /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js, error: Cannot find module 'blockchain-ui-privatization/node/schedule/remove-log'
+2022-03-15 20:56:25,172 ERROR 51980 nodejs.MODULE_NOT_FOUNDError: [egg-core] load file: /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js, error: Cannot find module '@knoxexchange/blockchain-ui-privatization/node/schedule/remove-log'
 Require stack:
 - /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js
 - /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-core/lib/utils/index.js

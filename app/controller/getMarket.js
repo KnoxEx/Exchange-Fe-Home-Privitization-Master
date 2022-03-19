@@ -1,5 +1,5 @@
 const { Controller } = require('egg');
-const { getLocale, getFileName, getPublicInfo,  compare } = require('blockchain-ui-privatization/node/utils');
+const { getLocale, getFileName, getPublicInfo,  compare } = require('@knoxexchange/blockchain-ui-privatization/node/utils');
 
 class getMarket extends Controller {
   async index(ctx){

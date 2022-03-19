@@ -1,4 +1,4 @@
-const { removeLogConfig, removeLog } = require('blockchain-ui-privatization/node/schedule/remove-log');
+const { removeLogConfig, removeLog } = require('@knoxexchange/blockchain-ui-privatization/node/schedule/remove-log');
 
 module.exports = {
   schedule: removeLogConfig,

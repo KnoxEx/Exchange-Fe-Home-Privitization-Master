@@ -211,7 +211,7 @@
       "@babel/preset-env": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
       "@babel/preset-stage-0": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
       "@vue/babel-preset-app": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
-      "blockchain-ui-privatization": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
+      "@knoxexchange/blockchain-ui-privatization": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
       "babel-plugin-transform-remove-strict-mode": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
       "babel-preset-es2015": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
       "babelify": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",

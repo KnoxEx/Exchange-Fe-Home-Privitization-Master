@@ -1,4 +1,4 @@
-import { imgMap } from 'blockchain-ui-privatization/lib/utils';
+import { imgMap } from '@knoxexchange/blockchain-ui-privatization/lib/utils';
 import imgMapObj from './imgMap.json';
 const imgMapSlove = imgMap(imgMapObj[1], process.env.BASE_URL);
 
@@ -38,4 +38,4 @@ export {
   setCookie,
   getCookie,
   removeCookie,
-} from 'blockchain-ui-privatization/lib/utils';
+} from '@knoxexchange/blockchain-ui-privatization/lib/utils';

@@ -2,8 +2,8 @@
 const { Controller } = require('egg');
 const fs = require('fs');
 const path = require('path');
-const { getLocale, getFileName, getPublicInfo, compare } = require('blockchain-ui-privatization/node/utils');
-const { hostFilter } = require('blockchain-ui-privatization/node/utils');
+const { getLocale, getFileName, getPublicInfo, compare } = require('@knoxexchange/blockchain-ui-privatization/node/utils');
+const { hostFilter } = require('@knoxexchange/blockchain-ui-privatization/node/utils');
 const templateConfig = require('../utils/template-config');
 
 class StaticIndex extends Controller {

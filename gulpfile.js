@@ -20,18 +20,18 @@ const minify = require('html-minifier').minify;
 const cleanCSS = require('gulp-clean-css');
 const cp = require('child_process');
 const rimraf = require('rimraf');
-const websocketPath = path.join(__dirname, 'node_modules/blockchain-ui-privatization/websocket');
-const webWorkerPath = path.join(__dirname, 'node_modules/blockchain-ui-privatization/web-worker');
+const websocketPath = path.join(__dirname, 'node_modules/@knoxexchange/blockchain-ui-privatization/websocket');
+const webWorkerPath = path.join(__dirname, 'node_modules/@knoxexchange/blockchain-ui-privatization/web-worker');
 const webWorkerMapPath = path.join(__dirname, 'app/view/src/assets/js/webworker-map.js');
 const webWorkerIntoPath = path.join(__dirname, 'app/dist/home/static/web-worker');
-const staticPath = path.join(__dirname, 'node_modules/blockchain-ui-privatization/static');
+const staticPath = path.join(__dirname, 'node_modules/@knoxexchange/blockchain-ui-privatization/static');
 const staticIntoPath =  path.join(__dirname, 'app/dist/home/static/');
 const imgPath = path.join(__dirname, 'app/view/imgTheme/1');
 const imgInPath = path.join(__dirname, 'app/dist/home/static/img');
-const { dirExists } = require('blockchain-ui-privatization/node/utils');
+const { dirExists } = require('@knoxexchange/blockchain-ui-privatization/node/utils');
 const sourceMapPath = path.join(__dirname, 'app/view/src/utils/imgMap.json');
 const iconFontPath = path.join(__dirname, 'app/view/iconTheme/1.js');
-const modulesJSPath = path.join(__dirname, 'node_modules/blockchain-ui-privatization/home/modules');
+const modulesJSPath = path.join(__dirname, 'node_modules/@knoxexchange/blockchain-ui-privatization/home/modules');
 const templateConfig = require('./templateConfig');
 const sourceMap = {};
 const webWorkerMap = {};
@@ -98,7 +98,7 @@ async function clean(){
 }
 
 async function css() {
-  const cssPath = path.join(__dirname, 'node_modules/blockchain-ui-privatization/static/css/common.styl');
+  const cssPath = path.join(__dirname, 'node_modules/@knoxexchange/blockchain-ui-privatization/static/css/common.styl');
   src(cssPath)
     .pipe(stylus({}))
     .pipe(cleanCSS())
@@ -109,9 +109,9 @@ async function css() {
 }
 
 const pages = path.join(__dirname, '/app/view/template/**');
-const modules = path.join(__dirname, 'node_modules/blockchain-ui-privatization/home/modules/*.js');
+const modules = path.join(__dirname, 'node_modules/@knoxexchange/blockchain-ui-privatization/home/modules/*.js');
 
-const watchFile = () => watch([pages, modules, path.join(__dirname, 'node_modules/blockchain-ui-privatization/websocket/**')],
+const watchFile = () => watch([pages, modules, path.join(__dirname, 'node_modules/@knoxexchange/blockchain-ui-privatization/websocket/**')],
   {}, series(buildModulesJS, buildTemplate, compassWebsocket));
 
 function slove() {
@@ -178,10 +178,10 @@ function compassFiles(paths, templatePath, outputPath, style) {
           useShortDoctype: true,
         });
       }else{
-        const JSPath = path.join(__dirname, './node_modules/blockchain-ui-privatization/static/js/html-init.js');
+        const JSPath = path.join(__dirname, './node_modules/@knoxexchange/blockchain-ui-privatization/static/js/html-init.js');
         const inlineJs = fs.readFileSync(JSPath, 'utf-8');
-        const utilsJS = fs.readFileSync(path.join(__dirname, './node_modules/blockchain-ui-privatization/lib/utils.js'), 'utf-8');
-        const fetchData = fs.readFileSync(path.join(__dirname, './node_modules/blockchain-ui-privatization/home/fetchData.js'), 'utf-8');
+        const utilsJS = fs.readFileSync(path.join(__dirname, './node_modules/@knoxexchange/blockchain-ui-privatization/lib/utils.js'), 'utf-8');
+        const fetchData = fs.readFileSync(path.join(__dirname, './node_modules/@knoxexchange/blockchain-ui-privatization/home/fetchData.js'), 'utf-8');
         const script = transform((inlineJs + utilsJS + fetchData), {
           minified: true,
           comments: false,
