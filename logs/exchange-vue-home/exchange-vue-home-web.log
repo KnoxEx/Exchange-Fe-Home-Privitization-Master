@@ -4,3 +4,24 @@
 2022-03-19 01:49:48,387 ERROR 43395 [-/127.0.0.1/-/41ms GET /] [service.getAppDownLoad] {"domain":"http://127.0.0.1:56060","message":"common/app_download报错 status非200","key":"res.status","data":404}
 2022-03-19 01:49:48,388 ERROR 43395 [-/127.0.0.1/-/42ms GET /] [service.getBannerIndex] {"domain":"http://127.0.0.1:56060","message":"common/index报错 status非200","key":"res.status","data":404}
 2022-03-19 01:49:48,390 ERROR 43395 [-/127.0.0.1/-/44ms GET /] [service.getFooterList] {"domain":"http://127.0.0.1:56060","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:53:11,194 ERROR 44398 [-/127.0.0.1/-/23ms GET /en_US/] [controller.homePage] {"domain":"tundraswap.com","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:53:11,481 ERROR 44398 [-/127.0.0.1/-/310ms GET /en_US/] [service.publictInfo] {"domain":"http://https://www.tundraswap.com","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:53:11,521 ERROR 44398 [-/127.0.0.1/-/350ms GET /en_US/] [service.getFooterHeader] {"domain":"http://https://www.tundraswap.com","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:53:11,565 ERROR 44398 [-/127.0.0.1/-/394ms GET /en_US/] [service.getAppDownLoad] {"domain":"http://https://www.tundraswap.com","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:53:11,607 ERROR 44398 [-/127.0.0.1/-/436ms GET /en_US/] [service.getBannerIndex] {"domain":"http://https://www.tundraswap.com","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:53:11,640 ERROR 44398 [-/127.0.0.1/-/470ms GET /en_US/] [service.getFooterList] {"domain":"http://https://www.tundraswap.com","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:53:11,645 ERROR 44398 [-/127.0.0.1/-/473ms GET /en_US/] nodejs.TypeError: Cannot destructure property 'noticeInfoList' of 'this.getLocalData(...)' as it is undefined.
+    at StaticIndex.index (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/controller/homePage.js:48:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-compress/index.js:43:5
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 44398
+hostname: safahis-MacBook-Pro-2.local
+
