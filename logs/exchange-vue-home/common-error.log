@@ -1,5 +1,5 @@
-2022-03-19 01:34:26,074 ERROR 38239 [-/127.0.0.1/-/4ms GET /] [controller.homePage] {"domain":"0.0.1:54199","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
-2022-03-19 01:34:26,084 ERROR 38239 [-/127.0.0.1/-/13ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+2022-03-19 01:39:31,305 ERROR 39715 [-/127.0.0.1/-/5ms GET /] [controller.homePage] {"domain":"0.0.1:54834","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:39:31,317 ERROR 39715 [-/127.0.0.1/-/16ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
 headers: {}
     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
 errno: -61
@@ -12,7 +12,7 @@ data: undefined
 path: "/fe-ex-api/common/public_info_v4"
 status: -1
 headers: {}
-res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
-pid: 38239
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39715
 hostname: safahis-MacBook-Pro-2.local
 

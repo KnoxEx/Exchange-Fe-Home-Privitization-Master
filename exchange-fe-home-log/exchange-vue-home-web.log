@@ -1,0 +1,216 @@
+2022-03-19 01:37:53,935 ERROR 39239 [-/127.0.0.1/-/21ms GET /en_US/login] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:37:53,955 ERROR 39239 [-/127.0.0.1/-/41ms GET /en_US/login] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":10,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39239
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:37:56,698 ERROR 39239 [-/127.0.0.1/-/4ms GET /en_US/] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:37:56,705 ERROR 39239 [-/127.0.0.1/-/10ms GET /en_US/] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39239
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:38:21,680 ERROR 39238 [-/127.0.0.1/-/16ms GET /en_US/] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:38:21,699 ERROR 39238 [-/127.0.0.1/-/35ms GET /en_US/] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":10,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39238
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:38:25,039 ERROR 39238 [-/127.0.0.1/-/5ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:38:25,047 ERROR 39238 [-/127.0.0.1/-/12ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39238
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:38:42,521 ERROR 39240 [-/127.0.0.1/-/23ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:38:42,546 ERROR 39240 [-/127.0.0.1/-/50ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39240
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:38:43,760 ERROR 39240 [-/127.0.0.1/-/4ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:38:43,768 ERROR 39240 [-/127.0.0.1/-/11ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39240
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:39:08,891 ERROR 39243 [-/127.0.0.1/-/22ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:39:08,918 ERROR 39243 [-/127.0.0.1/-/49ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39243
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:39:15,373 ERROR 39588 [-/127.0.0.1/-/33ms GET /] [controller.homePage] {"domain":"0.0.1:8188","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:39:15,387 ERROR 39588 [-/127.0.0.1/-/47ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39588
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:40:28,232 ERROR 39583 [-/127.0.0.1/-/30ms GET /] [controller.homePage] {"domain":"0.0.1:8188","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:40:28,263 ERROR 39583 [-/127.0.0.1/-/62ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":10,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39583
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:40:30,813 ERROR 39241 [-/127.0.0.1/-/24ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:40:30,830 ERROR 39241 [-/127.0.0.1/-/42ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":6,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39241
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:41:03,604 ERROR 39245 [-/127.0.0.1/-/24ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:41:03,629 ERROR 39245 [-/127.0.0.1/-/50ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39245
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:41:12,630 ERROR 39581 [-/127.0.0.1/-/22ms GET /] [controller.homePage] {"domain":"0.0.1:8188","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:41:12,655 ERROR 39581 [-/127.0.0.1/-/49ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":7,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39581
+hostname: safahis-MacBook-Pro-2.local
+
