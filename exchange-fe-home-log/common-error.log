@@ -214,3 +214,141 @@ res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"ab
 pid: 39581
 hostname: safahis-MacBook-Pro-2.local
 
+2022-03-19 01:48:31,075 ERROR 39239 [-/127.0.0.1/-/10ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:48:31,086 ERROR 39239 [-/127.0.0.1/-/21ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":4,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39239
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:49:00,985 ERROR 39238 [-/127.0.0.1/-/5ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:49:00,997 ERROR 39238 [-/127.0.0.1/-/17ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+errno: -61
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 80
+name: "RequestError"
+data: undefined
+path: "/fe-ex-api/common/public_info_v4"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":6,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 39238
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:50:04,363 ERROR 39243 [-/127.0.0.1/-/12ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:50:04,376 ERROR 39243 [-/127.0.0.1/-/25ms GET /] [service.publictInfo] {"domain":"http://127.0.0.1:7007","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,381 ERROR 39243 [-/127.0.0.1/-/30ms GET /] [service.getFooterHeader] {"domain":"http://127.0.0.1:7007","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,384 ERROR 39243 [-/127.0.0.1/-/33ms GET /] [service.getAppDownLoad] {"domain":"http://127.0.0.1:7007","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,386 ERROR 39243 [-/127.0.0.1/-/35ms GET /] [service.getBannerIndex] {"domain":"http://127.0.0.1:7007","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,388 ERROR 39243 [-/127.0.0.1/-/37ms GET /] [service.getFooterList] {"domain":"http://127.0.0.1:7007","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,401 ERROR 39243 [-/127.0.0.1/-/2ms GET /en_US/] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:50:04,404 ERROR 39243 [-/127.0.0.1/-/5ms GET /en_US/] [service.publictInfo] {"domain":"http://127.0.0.1:7007","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,406 ERROR 39243 [-/127.0.0.1/-/7ms GET /en_US/] [service.getFooterHeader] {"domain":"http://127.0.0.1:7007","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,410 ERROR 39243 [-/127.0.0.1/-/11ms GET /en_US/] [service.getAppDownLoad] {"domain":"http://127.0.0.1:7007","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,412 ERROR 39243 [-/127.0.0.1/-/12ms GET /en_US/] [service.getBannerIndex] {"domain":"http://127.0.0.1:7007","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,413 ERROR 39243 [-/127.0.0.1/-/14ms GET /en_US/] [service.getFooterList] {"domain":"http://127.0.0.1:7007","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:04,414 ERROR 39243 [-/127.0.0.1/-/15ms GET /en_US/] nodejs.TypeError: Cannot destructure property 'noticeInfoList' of 'this.getLocalData(...)' as it is undefined.
+    at StaticIndex.index (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/controller/homePage.js:48:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-compress/index.js:43:5
+    at async xframe (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-static-cache/index.js:73:16
+
+pid: 39243
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:50:06,203 ERROR 39590 [-/127.0.0.1/-/27ms GET /] [controller.homePage] {"domain":"0.0.1:8188","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:50:06,227 ERROR 39590 [-/127.0.0.1/-/52ms GET /] [service.publictInfo] {"domain":"http://127.0.0.1:8188","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,231 ERROR 39590 [-/127.0.0.1/-/56ms GET /] [service.getFooterHeader] {"domain":"http://127.0.0.1:8188","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,234 ERROR 39590 [-/127.0.0.1/-/59ms GET /] [service.getAppDownLoad] {"domain":"http://127.0.0.1:8188","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,235 ERROR 39590 [-/127.0.0.1/-/60ms GET /] [service.getBannerIndex] {"domain":"http://127.0.0.1:8188","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,236 ERROR 39590 [-/127.0.0.1/-/61ms GET /] [service.getFooterList] {"domain":"http://127.0.0.1:8188","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,245 ERROR 39590 [-/127.0.0.1/-/3ms GET /en_US/] [controller.homePage] {"domain":"0.0.1:8188","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:50:06,248 ERROR 39590 [-/127.0.0.1/-/6ms GET /en_US/] [service.publictInfo] {"domain":"http://127.0.0.1:8188","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,249 ERROR 39590 [-/127.0.0.1/-/7ms GET /en_US/] [service.getFooterHeader] {"domain":"http://127.0.0.1:8188","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,250 ERROR 39590 [-/127.0.0.1/-/8ms GET /en_US/] [service.getAppDownLoad] {"domain":"http://127.0.0.1:8188","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,250 ERROR 39590 [-/127.0.0.1/-/8ms GET /en_US/] [service.getBannerIndex] {"domain":"http://127.0.0.1:8188","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,251 ERROR 39590 [-/127.0.0.1/-/9ms GET /en_US/] [service.getFooterList] {"domain":"http://127.0.0.1:8188","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,252 ERROR 39590 [-/127.0.0.1/-/10ms GET /en_US/] nodejs.TypeError: Cannot destructure property 'noticeInfoList' of 'this.getLocalData(...)' as it is undefined.
+    at StaticIndex.index (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/controller/homePage.js:48:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-compress/index.js:43:5
+    at async xframe (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-static-cache/index.js:73:16
+
+pid: 39590
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:50:06,979 ERROR 39590 [-/127.0.0.1/-/2ms GET /en_US/] [controller.homePage] {"domain":"0.0.1:8188","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:50:06,982 ERROR 39590 [-/127.0.0.1/-/5ms GET /en_US/] [service.publictInfo] {"domain":"http://127.0.0.1:8188","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,985 ERROR 39590 [-/127.0.0.1/-/8ms GET /en_US/] [service.getFooterHeader] {"domain":"http://127.0.0.1:8188","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,988 ERROR 39590 [-/127.0.0.1/-/11ms GET /en_US/] [service.getAppDownLoad] {"domain":"http://127.0.0.1:8188","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,992 ERROR 39590 [-/127.0.0.1/-/15ms GET /en_US/] [service.getBannerIndex] {"domain":"http://127.0.0.1:8188","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,996 ERROR 39590 [-/127.0.0.1/-/19ms GET /en_US/] [service.getFooterList] {"domain":"http://127.0.0.1:8188","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:06,998 ERROR 39590 [-/127.0.0.1/-/20ms GET /en_US/] nodejs.TypeError: Cannot destructure property 'noticeInfoList' of 'this.getLocalData(...)' as it is undefined.
+    at StaticIndex.index (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/controller/homePage.js:48:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-compress/index.js:43:5
+    at async xframe (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-static-cache/index.js:73:16
+
+pid: 39590
+hostname: safahis-MacBook-Pro-2.local
+
+2022-03-19 01:50:10,694 ERROR 39242 [-/127.0.0.1/-/24ms GET /] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:50:10,726 ERROR 39242 [-/127.0.0.1/-/56ms GET /] [service.publictInfo] {"domain":"http://127.0.0.1:7007","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,730 ERROR 39242 [-/127.0.0.1/-/60ms GET /] [service.getFooterHeader] {"domain":"http://127.0.0.1:7007","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,733 ERROR 39242 [-/127.0.0.1/-/63ms GET /] [service.getAppDownLoad] {"domain":"http://127.0.0.1:7007","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,734 ERROR 39242 [-/127.0.0.1/-/64ms GET /] [service.getBannerIndex] {"domain":"http://127.0.0.1:7007","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,735 ERROR 39242 [-/127.0.0.1/-/65ms GET /] [service.getFooterList] {"domain":"http://127.0.0.1:7007","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,743 ERROR 39242 [-/127.0.0.1/-/2ms GET /en_US/] [controller.homePage] {"domain":"0.0.1:7007","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:50:10,745 ERROR 39242 [-/127.0.0.1/-/4ms GET /en_US/] [service.publictInfo] {"domain":"http://127.0.0.1:7007","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,746 ERROR 39242 [-/127.0.0.1/-/5ms GET /en_US/] [service.getFooterHeader] {"domain":"http://127.0.0.1:7007","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,747 ERROR 39242 [-/127.0.0.1/-/6ms GET /en_US/] [service.getAppDownLoad] {"domain":"http://127.0.0.1:7007","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,748 ERROR 39242 [-/127.0.0.1/-/7ms GET /en_US/] [service.getBannerIndex] {"domain":"http://127.0.0.1:7007","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,749 ERROR 39242 [-/127.0.0.1/-/8ms GET /en_US/] [service.getFooterList] {"domain":"http://127.0.0.1:7007","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}
+2022-03-19 01:50:10,750 ERROR 39242 [-/127.0.0.1/-/9ms GET /en_US/] nodejs.TypeError: Cannot destructure property 'noticeInfoList' of 'this.getLocalData(...)' as it is undefined.
+    at StaticIndex.index (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/controller/homePage.js:48:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-compress/index.js:43:5
+    at async xframe (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/koa-static-cache/index.js:73:16
+
+pid: 39242
+hostname: safahis-MacBook-Pro-2.local
+

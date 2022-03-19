@@ -218,7 +218,7 @@
         "babel-preset-es2015": "^6.24.1",
         "babelify": "^10.0.0",
         "browserify": "^16.5.0",
-        "egg": "^2.15.1",
+        "egg": "2.34.0",
         "egg-scripts": "^2.11.0",
         "egg-view-nunjucks": "^2.2.0",
         "graphql-request": "^1.8.2",
@@ -313,7 +313,8 @@
       "pageUrl": ""
     },
     "siteFile": {
-      "/favicon.ico": "<Buffer len: 6463>"
+      "/favicon.ico": "<Buffer len: 6463>",
+      "cacheControl": "public, max-age=2592000"
     },
     "bodyParser": {
       "enable": true,
@@ -344,6 +345,7 @@
       "errorLogName": "common-error.log",
       "coreLogger": {},
       "allowDebugAtProd": false,
+      "enablePerformanceTimer": false,
       "type": "application"
     },
     "httpclient": {

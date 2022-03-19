@@ -1,18 +1,6 @@
-2022-03-19 01:39:31,305 ERROR 39715 [-/127.0.0.1/-/5ms GET /] [controller.homePage] {"domain":"0.0.1:54834","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
-2022-03-19 01:39:31,317 ERROR 39715 [-/127.0.0.1/-/16ms GET /] nodejs.RequestError: connect ECONNREFUSED 127.0.0.1:80, POST http://127.0.0.1/fe-ex-api/common/public_info_v4 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"127.0.0.1:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
-headers: {}
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
-errno: -61
-code: "ECONNREFUSED"
-syscall: "connect"
-address: "127.0.0.1"
-port: 80
-name: "RequestError"
-data: undefined
-path: "/fe-ex-api/common/public_info_v4"
-status: -1
-headers: {}
-res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":8,"keepAliveSocket":false,"requestUrls":["http://127.0.0.1/fe-ex-api/common/public_info_v4"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
-pid: 39715
-hostname: safahis-MacBook-Pro-2.local
-
+2022-03-19 01:49:48,351 ERROR 43395 [-/127.0.0.1/-/5ms GET /] [controller.homePage] {"domain":"0.0.1:56060","message":"未拿到publicInfo.lan对象, 语言强制转为en_US","key":"publicInfo.lan"}
+2022-03-19 01:49:48,381 ERROR 43395 [-/127.0.0.1/-/35ms GET /] [service.publictInfo] {"domain":"http://127.0.0.1:56060","message":"common/public_info_v4报错 status非200","key":"res.status","data":404}
+2022-03-19 01:49:48,385 ERROR 43395 [-/127.0.0.1/-/39ms GET /] [service.getFooterHeader] {"domain":"http://127.0.0.1:56060","message":"common/footer_and_header报错 status非200","key":"res.status","data":404}
+2022-03-19 01:49:48,387 ERROR 43395 [-/127.0.0.1/-/41ms GET /] [service.getAppDownLoad] {"domain":"http://127.0.0.1:56060","message":"common/app_download报错 status非200","key":"res.status","data":404}
+2022-03-19 01:49:48,388 ERROR 43395 [-/127.0.0.1/-/42ms GET /] [service.getBannerIndex] {"domain":"http://127.0.0.1:56060","message":"common/index报错 status非200","key":"res.status","data":404}
+2022-03-19 01:49:48,390 ERROR 43395 [-/127.0.0.1/-/44ms GET /] [service.getFooterList] {"domain":"http://127.0.0.1:56060","message":"/cms/footer/list报错 status非200","key":"res.status","data":404}

@@ -1,9 +1,9 @@
-2022-03-19 01:39:30,604 INFO 39715 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
-2022-03-19 01:39:30,604 INFO 39715 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/clean_log.js
-2022-03-19 01:39:30,604 INFO 39715 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
-2022-03-19 01:39:30,604 INFO 39715 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js
-2022-03-19 01:39:31,291 INFO 39715 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 10228710ms at 2022-03-19 04:30:00.001
-2022-03-19 01:39:31,291 INFO 39715 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 80428709ms at 2022-03-20 00:00:00.000
-2022-03-19 01:39:31,292 INFO 39715 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 80429709ms at 2022-03-20 00:00:01.001
-2022-03-19 01:39:31,292 INFO 39715 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js next time will execute immediate
-2022-03-19 01:39:31,293 INFO 39715 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js next time will execute after 86400000ms at 2022-03-20 01:39:31.293
+2022-03-19 01:49:48,209 INFO 43395 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-03-19 01:49:48,209 INFO 43395 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-03-19 01:49:48,209 INFO 43395 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-03-19 01:49:48,209 INFO 43395 [egg-schedule]: register schedule /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js
+2022-03-19 01:49:48,337 INFO 43395 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 9611664ms at 2022-03-19 04:30:00.001
+2022-03-19 01:49:48,338 INFO 43395 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 79811662ms at 2022-03-20 00:00:00.000
+2022-03-19 01:49:48,338 INFO 43395 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 79812662ms at 2022-03-20 00:00:01.000
+2022-03-19 01:49:48,338 INFO 43395 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js next time will execute immediate
+2022-03-19 01:49:48,339 INFO 43395 [Timer] /Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/schedule/remove-log.js next time will execute after 86400000ms at 2022-03-20 01:49:48.339

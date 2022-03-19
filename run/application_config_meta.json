@@ -29,7 +29,8 @@
     "agentLogName": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
     "coreLogger": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
-    "allowDebugAtProd": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js"
   },
   "view": {
     "root": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/config/config.default.js",
@@ -295,7 +296,8 @@
     "pageUrl": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
     "enable": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg/config/config.default.js",
