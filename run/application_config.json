@@ -208,19 +208,19 @@
     "hostHeaders": "",
     "pkg": {
       "name": "exchange-vue-home",
-      "version": "1.0.0",
-      "description": "",
-      "private": true,
+      "version": "2.0.0",
+      "description": "knoxexchange",
+      "private": false,
       "egg": {
         "declarations": true
       },
       "dependencies": {
-        "@babel/core": "7.8.7",
-        "@babel/helper-module-imports": "7.8.3",
-        "@babel/preset-env": "7.8.7",
+        "@babel/core": "7.17.5",
+        "@babel/helper-module-imports": "7.16.7",
+        "@babel/preset-env": "7.16.11",
         "@babel/preset-stage-0": "7.8.3",
-        "@vue/babel-preset-app": "4.2.3",
-        "@knoxexchange/blockchain-ui-privatization": "1.1.7",
+        "@vue/babel-preset-app": "4.5.15",
+        "@knoxexchange/blockchain-ui-privatization": "1.8.0",
         "babel-plugin-transform-remove-strict-mode": "0.0.2",
         "babel-preset-es2015": "^6.24.1",
         "babelify": "^10.0.0",
@@ -299,8 +299,8 @@
         "lib",
         "index.js"
       ],
-      "author": "huangjin",
-      "license": "MIT"
+      "author": "Samuel Safahi",
+      "license": "BSL"
     },
     "baseDir": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master",
     "HOME": "/Users/safahi",
@@ -413,9 +413,9 @@
       "threshold": 1024
     },
     "devUrlProxy": {
-      "ex": "https://www.knox.exchange",
-      "otc": "https://www.knox.exchange",
-      "co": "https://www.knox.exchange"
+      "ex": "https://www.tundraswap.com",
+      "otc": "https://www.tundraswap.com",
+      "co": "https://www.tundraswap.com"
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",

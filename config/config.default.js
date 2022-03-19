@@ -59,9 +59,9 @@ module.exports = (appInfo) => {
     // myAppName: 'egg',
   };
   config.devUrlProxy = {
-    ex: 'https://www.knox.exchange',
-    otc: 'https://www.knox.exchange',
-    co: 'https://www.knox.exchange',
+    ex: 'https://www.tundraswap.com',
+    otc: 'https://www.tundraswap.com',
+    co: 'https://www.tundraswap.com',
   }
 
   return {
