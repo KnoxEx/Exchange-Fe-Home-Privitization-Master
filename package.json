@@ -1,8 +1,8 @@
 {
   "name": "exchange-vue-home",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "version": "2.0.0",
+  "description": "knoxexchange",
+  "private": false,
   "egg": {
     "declarations": true
   },
@@ -91,6 +91,6 @@
     "lib",
     "index.js"
   ],
-  "author": "huangjin",
-  "license": "MIT"
+  "author": "Samuel Safahi",
+  "license": "BSL"
 }
