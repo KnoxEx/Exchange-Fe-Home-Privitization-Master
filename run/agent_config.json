@@ -121,14 +121,6 @@
         "disable": false
       }
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false,
-      "overrideIgnore": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -151,7 +143,7 @@
     },
     "view": {
       "root": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/app/build/template",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {
@@ -163,9 +155,9 @@
       "throwOnUndefined": false,
       "trimBlocks": false,
       "lstripBlocks": false,
-      "cache": false
+      "cache": true
     },
-    "env": "local",
+    "env": "unittest",
     "name": "exchange-vue-home",
     "keys": "<String len: 36>",
     "cookies": {},
@@ -188,8 +180,8 @@
         "@babel/helper-module-imports": "7.16.7",
         "@babel/preset-env": "7.16.11",
         "@babel/preset-stage-0": "7.8.3",
-        "@vue/babel-preset-app": "4.5.15",
         "@knoxexchange/blockchain-ui-privatization": "1.8.0",
+        "@vue/babel-preset-app": "4.5.15",
         "babel-plugin-transform-remove-strict-mode": "0.0.2",
         "babel-preset-es2015": "^6.24.1",
         "babelify": "^10.0.0",
@@ -223,6 +215,7 @@
         "cross-env": "^7.0.2",
         "egg-bin": "^4.3.7",
         "egg-ci": "^1.8.0",
+        "egg-mock": "^4.2.0",
         "eslint": "^5.13.0",
         "eslint-config-egg": "^7.1.0",
         "eslint-import-resolver-alias": "^1.1.2",
@@ -307,19 +300,17 @@
     "logger": {
       "dir": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/logs/exchange-vue-home",
       "encoding": "utf8",
-      "env": "local",
+      "env": "unittest",
       "level": "INFO",
-      "consoleLevel": "INFO",
+      "consoleLevel": "WARN",
       "disableConsoleAfterReady": false,
       "outputJSON": false,
-      "buffer": true,
+      "buffer": false,
       "appLogName": "exchange-vue-home-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -459,7 +450,7 @@
       "version": "2.9.0"
     },
     "development": {
-      "enable": true,
+      "enable": false,
       "package": "egg-development",
       "name": "development",
       "dependencies": [
@@ -545,6 +536,15 @@
       "from": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/config/plugin.js",
       "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-view-nunjucks",
       "version": "2.3.0"
+    },
+    "egg-mock": {
+      "enable": true,
+      "path": "/Users/safahi/Documents/GitHub/Exchange-Fe-Home-Privitization-Master/node_modules/egg-mock",
+      "name": "egg-mock",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "version": "4.2.0"
     }
   }
 }
